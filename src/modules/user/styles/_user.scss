@@ -1,0 +1,22 @@
+.user {
+  &__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__heading {
+    margin: 0 1.5rem 1.5rem 0;
+    padding: 0;
+  }
+
+  &__posts-item {
+    margin: 0 0 1.5rem 0;
+    padding: 0 0 1.5rem 0;
+    border-bottom: 0.1rem solid $color-global;
+  }
+
+  &__posts-title {
+    margin: 0 0 1rem 0;
+  }
+}

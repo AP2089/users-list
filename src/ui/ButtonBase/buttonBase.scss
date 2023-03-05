@@ -1,0 +1,20 @@
+.button-base {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.1rem solid $color-primary;
+  background-color: $color-primary;
+  padding: 1rem 2rem;
+  line-height: 1;
+  margin: 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  transition: color .5s ease 0s, background-color .5s ease 0s;
+
+  &:hover {
+    color: $color-primary;
+    background-color: #ffffff;
+    text-decoration: none;
+  }
+}

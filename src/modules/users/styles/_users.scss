@@ -1,0 +1,43 @@
+.users {
+  &__item {
+    margin-bottom: 1.2rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.2rem solid $color-global;
+    padding: 1.2rem;
+  }
+
+  &__name {
+    margin-right: 1.5rem;
+  }
+
+  &__btn {
+    margin-right: 1rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__modal-title {
+    margin: 0 0 1.5rem 0;
+  }
+  
+  &__modal-item {
+    border: 0.2rem solid $color-global;
+    padding: 1.2rem;
+    margin-bottom: 1.2rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
